@@ -14,7 +14,7 @@ for i in range(2, int(N**0.5) + 1):
 
 def solve():
     n = int(f.readline())
-    primes  = [i for i in range(2, n + 1) if is_prime[i]]
+    primes = [i for i in range(2, n + 1) if is_prime[i]]
     ans_set = set()
     B = False
     for i in range(len(primes)):
